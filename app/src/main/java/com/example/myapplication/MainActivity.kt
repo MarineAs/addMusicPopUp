@@ -7,7 +7,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.custom_view.*
+import kotlinx.android.synthetic.main.add_buttons_custom_view.*
 
 class MainActivity : AppCompatActivity() {
 

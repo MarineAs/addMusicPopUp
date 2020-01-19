@@ -10,15 +10,15 @@ import android.view.animation.TranslateAnimation
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.res.ResourcesCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import kotlinx.android.synthetic.main.custom_view.view.*
+import kotlinx.android.synthetic.main.add_buttons_custom_view.view.*
 
 
-class CustomView(context: Context, attr: AttributeSet?) : ConstraintLayout(context, attr),
+class AddButtonsCustomView(context: Context, attr: AttributeSet?) : ConstraintLayout(context, attr),
     View.OnTouchListener, View.OnClickListener {
     var btnSelected: FloatingActionButton? = null
 
     init {
-        val view = LayoutInflater.from(context).inflate(R.layout.custom_view, this, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.add_buttons_custom_view, this, false)
         addView(view)
         btnPlay.setOnTouchListener(this)
         root.setOnClickListener(this)
